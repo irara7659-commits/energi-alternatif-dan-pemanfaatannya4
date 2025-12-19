@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energi Alternatif dan Pemanfaatannya</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:linear-gradient(135deg,#e0f7fa,#f1f8e9);
+      color:#333;
+    }
+    header{
+      background:#00796b;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+    nav{
+      background:#004d40;
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      padding:10px;
+      position:sticky;
+      top:0;
+    }
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    nav a:hover{
+      text-decoration:underline;
+    }
+    section{
+      padding:30px;
+      margin:20px;
+      background:white;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2{
+      color:#00796b;
+    }
+    .rumus{
+      background:#e0f2f1;
+      padding:15px;
+      border-left:5px solid #00796b;
+      margin:10px 0;
+      font-family:"Courier New", monospace;
+    }
+    .animasi{
+      width:120px;
+      height:120px;
+      margin:20px auto;
+      border-radius:50%;
+      background:#81c784;
+      animation:putar 4s linear infinite;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:white;
+      font-weight:bold;
+    }
+    @keyframes putar{
+      from{transform:rotate(0deg);} 
+      to{transform:rotate(360deg);} 
+    }
+    footer{
+      text-align:center;
+      padding:15px;
+      background:#004d40;
+      color:white;
+    }
+    button{
+      padding:10px 15px;
+      margin:5px;
+      border:none;
+      border-radius:8px;
+      background:#00796b;
+      color:white;
+      font-weight:bold;
+      cursor:pointer;
+    }
+    button:hover{background:#004d40;}
+
+    .hidden{display:none;}
+
+    .panel{
+      font-size:60px;
+      animation:sinar 2s infinite alternate;
+    }
+    @keyframes sinar{
+      from{transform:scale(1);} 
+      to{transform:scale(1.2);} 
+    }
+
+    .turbin{
+      font-size:60px;
+      animation:putar 1.5s linear infinite;
+    }
+
+    .air{
+      font-size:60px;
+      animation:alir 1.2s infinite;
+    }
+    @keyframes alir{
+      0%{transform:translateY(0);} 
+      50%{transform:translateY(20px);} 
+      100%{transform:translateY(0);} 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Energi Alternatif dan Pemanfaatannya</h1>
+    <p>Pembelajaran IPA/Fisika</p>
+  </header>
+
+  <nav>
+    <a href="#pengantar">Pengantar</a>
+    <a href="#pengertian">Pengertian</a>
+    <a href="#rumus">Rumus</a>
+    <a href="#contoh">Contoh Soal</a>
+    <a href="#animasi">Animasi</a>
+  </nav>
+
+  <section id="pengantar">
+    <h2>Pengantar / Apersepsi</h2>
+    <p>Dalam kehidupan sehari-hari, manusia sangat bergantung pada energi, terutama energi yang berasal dari bahan bakar fosil. Namun, ketersediaan energi fosil semakin menipis dan berdampak buruk terhadap lingkungan. Oleh karena itu, diperlukan sumber energi alternatif yang lebih ramah lingkungan dan berkelanjutan.</p>
+  </section>
+
+  <section id="pengertian">
+    <h2>Pengertian Energi Alternatif</h2>
+    <p>Energi alternatif adalah sumber energi selain bahan bakar fosil yang digunakan untuk memenuhi kebutuhan energi manusia. Energi ini umumnya berasal dari alam, dapat diperbarui, dan lebih ramah lingkungan. Contoh energi alternatif antara lain energi matahari, angin, air, panas bumi, dan biomassa.</p>
+  </section>
+
+  <section id="rumus">
+    <h2>Rumus yang Berkaitan</h2>
+    <p>Contoh rumus pada pemanfaatan energi alternatif:</p>
+    <div class="rumus">
+      Energi listrik: <br>
+      E = P × t
+    </div>
+    <p>Keterangan:</p>
+    <ul>
+      <li>E = Energi listrik (Joule)</li>
+      <li>P = Daya listrik (Watt)</li>
+      <li>t = Waktu (detik)</li>
+    </ul>
+    <div class="rumus">
+      Daya panel surya: <br>
+      P = V × I
+    </div>
+    <p>Keterangan:</p>
+    <ul>
+      <li>P = Daya (Watt)</li>
+      <li>V = Tegangan (Volt)</li>
+      <li>I = Arus (Ampere)</li>
+    </ul>
+  </section>
+
+  <section id="contoh">
+    <h2>Contoh Soal</h2>
+    <p>Sebuah panel surya menghasilkan daya sebesar 200 Watt dan digunakan selama 5 jam. Hitunglah energi listrik yang dihasilkan panel surya tersebut!</p>
+    <p><b>Penyelesaian:</b></p>
+    <div class="rumus">
+      Diketahui: <br>
+      P = 200 W <br>
+      t = 5 jam = 5 × 3600 = 18.000 s <br><br>
+      Ditanya: E = ? <br><br>
+      Jawab: <br>
+      E = P × t <br>
+      E = 200 × 18.000 <br>
+      E = 3.600.000 Joule
+    </div>
+  </section>
+
+  <section id="animasi">
+    <h2>Animasi Interaktif Energi Alternatif</h2>
+    <p>Klik tombol untuk melihat animasi cara kerja energi surya, angin, dan air.</p>
+
+    <div style="text-align:center; margin-bottom:20px;">
+      <button onclick="showSurya()">☀️ Panel Surya</button>
+      <button onclick="showAngin()">🌬️ Turbin Angin</button>
+      <button onclick="showAir()">💧 Pembangkit Air</button>
+    </div>
+
+    <div id="animasi-box" style="height:200px; display:flex; justify-content:center; align-items:center;">
+      <div id="surya" class="panel hidden">☀️</div>
+      <div id="angin" class="turbin hidden">🌀</div>
+      <div id="air" class="air hidden">💧</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Pembelajaran Energi Alternatif</p>
+  </footer>
+<script>
+  function hideAll(){
+    document.getElementById('surya').classList.add('hidden');
+    document.getElementById('angin').classList.add('hidden');
+    document.getElementById('air').classList.add('hidden');
+  }
+  function showSurya(){
+    hideAll();
+    document.getElementById('surya').classList.remove('hidden');
+  }
+  function showAngin(){
+    hideAll();
+    document.getElementById('angin').classList.remove('hidden');
+  }
+  function showAir(){
+    hideAll();
+    document.getElementById('air').classList.remove('hidden');
+  }
+</script>
+</body>
+</html>
